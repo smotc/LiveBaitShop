@@ -30,7 +30,7 @@ body {
 
 header {
     height: 300px;
-    background-image: url("../images/pexels-cottonbro-studio-4822293.jpg");
+    background-image: url("../images/tackle-header.jpg");
     background-position: bottom;
     background-size: cover;
     display: grid;
@@ -178,11 +178,14 @@ h2 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 50px;
+    padding: 0px 50px;
 }
 
 .prices {
     background-color: var(--medblue);
     padding: 20px;
+    line-height: 1.4rem;
+    font-size: 18px;
 }
 
 
@@ -194,14 +197,16 @@ h2 {
     background-color: var(--darkblue);
 }
 
-.gallery-customers, .gallery-store {
+.gallery-customers,
+.gallery-store {
     display: grid;
     grid-gap: 20px;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     background-color: var(--darkblue);
 }
 
-.gallery-customers div, .gallery-store div {
+.gallery-customers div,
+.gallery-store div {
     max-height: 200px;
     overflow: hidden;
     border: 4px solid var(--lightblue);
@@ -209,7 +214,8 @@ h2 {
 
 }
 
-.gallery-customers img, .gallery-store img {
+.gallery-customers img,
+.gallery-store img {
     width: 100%;
     /* to fill max space available */
 }
@@ -281,9 +287,24 @@ footer img {
         padding: 0px 0px 20px 0px;
     }
 
-.shopping {
-    grid-template-columns: 1fr;
-}
+    .shopping {
+        grid-template-columns: 1fr;
+    }
+
+    .fishing {
+        grid-template-columns: 1fr;
+        justify-content: center;
+        text-align: center;
+        ;
+    }
+
+    .fishing h2 {
+        text-align: center;
+    }
+
+    .facebook {
+        margin-bottom: 50px;
+    }
 
 }
 
@@ -317,6 +338,6 @@ footer img {
         margin-top: 0px;
     }
 
-    
+
 
 }
